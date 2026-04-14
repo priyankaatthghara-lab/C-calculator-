@@ -1,0 +1,108 @@
+.container{
+    background-color: #22577a;
+    color: white;
+    height: 97vh;
+    width: 90vh;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 4px;
+    margin-right: 20px;
+    margin-left: 380px;
+}
+body{
+    background-color: #38a3a5;
+}
+.button{
+    padding-left: 32px;
+    padding-right: 4px;
+    
+    margin-top: 18px;
+    margin-bottom: 4px;
+    margin-left: 32px;
+    margin-right: 4px;
+    height: 70vh;
+    width: 70vh;
+    align-items: center;
+}
+.newbtn{
+    height:100px;
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: #13212a;
+    font-weight: bold;
+    font-size: 20px;
+}
+.different{
+    height:100px;
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+     border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.newbtn:hover{
+    background-color: #140152;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    transition: opacity 2s;
+}
+    .newbtn:active{
+        background-color: #57cc99;
+        cursor: pointer;
+        color: brown;
+    }
+    .different:hover{
+        background-color: #140152;
+        color: white;
+        cursor: pointer;
+    }
+    .different:active{
+        background-color: #57cc99;
+        color: brown;
+        cursor: pointer;
+    }
+    #display{
+        height: 100px;
+        width: 456px; 
+        background-color:#fefae0 ;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        margin-right: 4px;
+        margin-left: 74px;
+        border:solid;
+        border-radius: 4px;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    #myInput{
+         height: 100px;
+        width: 456px; 
+       
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #display:hover{
+        cursor: pointer;
+    }
